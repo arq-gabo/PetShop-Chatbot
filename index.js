@@ -20,18 +20,7 @@ app.get('/', function (request, response) {
 
 //google apis
 const calendarId = "q5k40j6ns7rgfhnq5r7a5pb50k@group.calendar.google.com";
-const serviceAccount = {
-    "type": "service_account",
-    "project_id": "petshop-project-dorggq",
-    "private_key_id": "2c6867cfc77d4ec379cc3c740e3cb65235e262e1",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJxH/pz8lw8eh/\ngnTFBUCSFZeI8ny5HIrcOsJxh3mmdiWZW6qHbFma0kcXRvfJZGZ8tnROk4ZI7Cz5\nIFbDiKhdQPax7TDjs5T9NsCcyk9bWNYmfYct84Lnp0skbgzQU5OKaRVoY1AYZtJO\nQKm9wGBcrwGDK6KX2Zo7IlY1ASLvTC0UdWzD68Q+Lb+OEjZuBojBk1EcFEgGmW1s\nZtDS2Hrp3ZV7R3UPclWkEaMIMQQbE7a4wCxivT7RTi67p0BU7PkT1nIkD40sIrv2\nXApIJAwJ++Mm1PonitxO2a3CawkHOJqETEpUR/j5ImDjZAt+tCyrsTP9V4bFlOJV\nHo3GZkuzAgMBAAECggEAEfhjYCK2kU2qZHjtB4MxPhGYPoVCYIZPQ9Aj81Kanh3V\nuXP1mzwmOujRlhwnA5PioObrMvhmtGX8l2+u6ploTW30yuISQaWD9o2C2DQYn00p\nPaJegNQ4a4N16Ne4YnGfKWu0kWiPAK1fu8J8m77flkGsA8/GGnoyB2RGg1AHmYJp\nz2CfQmHvFd7LOJeLjA47IEW1fA/VgwD+hQ7c2AK3kTGZIA+tf+CfJCqBzw8dIN6D\nfd/LBTAL0g7zVf4iSquisRkQSzIVi6zWCzCgBu5AXEVRc/LDkblDhkDfFzgMcqYN\nVAQP3tabhpTfA769mkY2zUgv9IWmi800RuJnfJw9MQKBgQDxHLwOn4emq4/bY7o+\nvDT/gvxJLmr9sIgi88mBbc2fbRaUVKzHG9oZwW8lzFzHK3IRxDTqxrXr9p8sg1c+\nlazXVAG992ZZqDscpDjtIJmJ7JGGh6M4+4kJZCJaUy1+EWAXOpcDfECtO4JkD9l6\n9TY1xOFb6i8RYMTohDa/8bWsqwKBgQDWOdfddk9DKvD/mosDKLpIiBp8B+sYput2\nU7aIanTLFp/eeVROcrC0uUq66tOSapTdpZY5t0L4agWnswHLl0FM1Gk78qn1SoWG\nJSc6Hs0SeRfVOFZltM7Zj4SF6UqgjUQZD33B3s44b1Ic/b5Yh5IBGUsH+w2ogzeQ\numBakitNGQKBgQCiInZ7Rt+LPnbgSrGlGh5xa32HIIWlzp3dEx5/wHyzJkI2wLHm\nul3xT9gUDNaewCJWvB/xeGpBIHhtEG0Mks3FhqIdQk47IBuP6Qa2vmNBEinR00f5\nO3wtKn7HSoOe8MQzGp0OJPHBC/FkpBvUySwJADmi+1lnUDFZQf8nF7zZPQKBgFXA\nzdJO26etds86k87t7LPAF6nymX9CwhqZpAWzZ5EsO06ZDtBgRK/zRCDSg2Km23Rm\nJl5wJ5S9DAp3M47Fu1P/6ygeGT6hWBW8pZk0Xy633nxxktQfrnWUZ54bJs5h/hJy\nCwsiHzakCSClyh4yFpXuBATr0CnWbNW4ZX2b6U1xAoGAIlEiGpehucHO8sHpePkN\nSef67smnIDxGria6BiUXkf8LYnr2+eAVhgaIyC+3OTcHK9qwC1+cvrwZIBsu2EZT\nrD5a0wz+QrMZaR+IDu1mXEKUGJW/eq5/lgKjWibj+s4QFQN4w9vLj6Sgw9yyhGHg\n5FKMc4vqcjVHefGfAX7SqWM=\n-----END PRIVATE KEY-----\n",
-    "client_email": "petshop-calendar@petshop-project-dorggq.iam.gserviceaccount.com",
-    "client_id": "111770832313700094509",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/petshop-calendar%40petshop-project-dorggq.iam.gserviceaccount.com"
-}  
+const serviceAccount = {/*Credentials*/}  
 
 
 const timeZoneOffset = '-05:00';
